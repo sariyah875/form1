@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/premium-vector/natural-landscape-lake-hills-purple-background-illustration_662550-1215.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        .buttons{
+            display: flex;
+            gap: 20px;
+            padding-left: 130px;
+        }
+        .buttons .button-one button{
+            height: 50px;
+            width: 130px;
+            background-color: transparent;
+            border: none;
+            box-shadow: 2px 3px 20px 2px black;
+            border-radius: 30px;
+        }
+        .button-one button a{
+             color: white;
+             text-decoration: none;
+             font-size: 16px;
+        }
+        .buttons .button-two button{
+            height: 50px;
+            width: 130px;
+            background-color: rgb(26, 2, 105);
+            border: none;
+            box-shadow: 2px 3px 20px 2px black;
+            border-radius: 30px;
+        }
+         .button-two button a{
+             color: white;
+             text-decoration: none;
+             font-size: 16px;
+        }
+        .heading h1{
+            color: white;
+        }
+        .inputs input{
+            height: 50px;
+            width: 450px;
+            background: transparent;
+            padding-left: 40px;
+            border-radius: 30px;
+            border: none;
+            box-shadow: 2px 3px 20px 2px black;
+            
+        }
+        .inputs input::placeholder{
+             color: white;
+             font-size: 16px;
+        }
+        .inputs i{
+            position: absolute;
+            color: white;
+            left: 50;
+        }
+        .button button{
+            height: 50px;
+            width: 450px;
+            background-color: rgb(26, 2, 105);
+            border: none;
+            box-shadow: 2px 3px 20px 2px black;
+            border-radius: 30px;
+            
+        }
+        .button button a{
+             color: white;
+             font-size: 16px;
+             text-decoration: none;
+        }
+        form{
+            background-color: transparent;
+            box-shadow: 2px 3px 20px 2px black;
+            padding: 40px;
+            width: 540px;
+            margin: auto;
+            margin-top: calc(50% - 40%);
+            height: 550px;
+            text-align: center;
+            border-radius: 20px;
+        }
+        i{font-size: x-large;color: white; position: absolute;
+            color: white;
+            left: 50;}
+        .input-group{
+            position: relative;
+            width: 450px;
+            margin: auto;
+        }
+        .input-group input{
+            height: 50px;
+            width: 450px;
+            background: transparent;
+            padding-left: 40px;
+            border-radius: 30px;
+            border: none;
+            box-shadow: 2px 3px 20px 2px black;
+        }
+        .input-group i{
+            position: absolute;
+            top: 50%;
+            left: 90%;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <Form>
+        <div class="buttons">
+            <div class="button-one">
+                <button><a href="#">Sign In</a></button>
+            </div>
+            <div class="button-two">
+                <Button><a href="#">Sign Up</a></Button>
+            </div>
+        </div>
+        <br>
+        <div class="heading">
+            <h1>Sign Up</h1>
+        </div>
+        <div class="inputs">
+            <div class="input-group">
+                <input type="email"  placeholder="Email"><i class="fa-regular fa-envelope"></i>
+            </div>
+            <br><br>
+             <div class="input-group">
+                 <input type="text" placeholder="Username"><i class="fa-regular fa-user"></i>
+            </div>
+            <br><br>
+             <div class="input-group">
+                 <input type="password" placeholder="Password"><i class="fa-solid fa-lock"></i>
+            </div>
+            
+        </div>
+        <br>
+        <input style="color: white;" type="checkbox">Remember Me<br><br>
+        <div class="button">
+            <button><a href="#">Sign Up  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i> </a></button>
+        </div>
+        <br><br>
+            <i class="fa-brands fa-google"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-github"></i>
+    </Form>
+</body>
+</html>
